@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>App</title>
+    <title>phb.dev blog</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "tailwind" %>
     <%= stylesheet_link_tag 'application', data: {turbolinks_track: true} %>    
     <%= javascript_importmap_tags %>
-    <%= yield :head %>    
+    <%= yield :head %>
+    <script defer data-domain="phb.dev" src="https://plausible.io/js/plausible.js"></script>
   </head>
 
   <body class="h-full font-sans antialiased font-normal leading-normal bg-gray-100">
