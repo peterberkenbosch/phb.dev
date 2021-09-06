@@ -59,3 +59,4 @@ gem "hotwire-rails"
 gem "grundler"
 
 gem "spina", github: "SpinaCMS/Spina"
+gem "honeybadger", "~> 4.0"
