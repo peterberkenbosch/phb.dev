@@ -30,3 +30,5 @@
 
 /node_modules
 /app/assets/stylesheets/tailwind-build.css
+
+/config/credentials/production.key
