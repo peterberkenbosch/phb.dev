@@ -1,4 +1,4 @@
-# APP NAME
+# SpinaCMS implementation for phb.dev
 
 Opiniated webpacker-less Rails setup with the latest Rails, using PostgreSQL, TailwindCSS, Stimulus, Hotwire and RSpec.
 
