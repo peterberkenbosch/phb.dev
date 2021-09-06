@@ -57,3 +57,5 @@ gem "importmap-rails"
 gem "strong_migrations"
 gem "hotwire-rails"
 gem "grundler"
+
+gem "spina", github: "SpinaCMS/Spina"
