@@ -102,6 +102,22 @@ GEM
     ast (2.4.2)
     attr_json (1.3.0)
       activerecord (>= 5.0.0, < 6.2)
+    aws-eventstream (1.2.0)
+    aws-partitions (1.496.0)
+    aws-sdk-core (3.121.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.239.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-kms (1.48.0)
+      aws-sdk-core (~> 3, >= 3.120.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.102.0)
+      aws-sdk-core (~> 3, >= 3.120.0)
+      aws-sdk-kms (~> 1)
+      aws-sigv4 (~> 1.4)
+    aws-sigv4 (1.4.0)
+      aws-eventstream (~> 1, >= 1.0.2)
     babosa (2.0.0)
     bcrypt (3.1.16)
     bindex (0.8.1)
@@ -171,6 +187,7 @@ GEM
       rails (>= 6.0.0)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
+    jmespath (1.4.0)
     jsonapi-serializer (2.2.0)
       activesupport (>= 4.2)
     kaminari (1.2.1)
@@ -370,6 +387,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
+  aws-sdk-s3
   brakeman
   bundler-audit!
   byebug

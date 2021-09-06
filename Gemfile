@@ -60,3 +60,4 @@ gem "grundler"
 
 gem "spina", github: "SpinaCMS/Spina"
 gem "honeybadger", "~> 4.0"
+gem "aws-sdk-s3", require: false
