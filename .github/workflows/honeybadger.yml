@@ -1,0 +1,17 @@
+name: Honeybadger
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v1      
+      - name: Notify Honeybadger
+        uses: honeybadger-io/github-notify-deploy-action@v1
+        with:
+          api_key: ${{ secrets.HONEYBADGER_API_KEY }}
