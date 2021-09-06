@@ -75,7 +75,7 @@ interaction:
   psql:
     description: Run the psql CLI on the dev database
     service: postgres
-    command: psql -h postgres -U postgres -d app_development
+    command: psql -h postgres -U postgres -d phb_development
 
   'redis-cli':
     descriptions: Run the Redis CLI
