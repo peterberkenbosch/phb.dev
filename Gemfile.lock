@@ -143,6 +143,7 @@ GEM
     grundler (0.1.0)
       down (~> 5.2.0)
       http (~> 4.3.0)
+    honeybadger (4.9.0)
     hotwire-rails (0.1.3)
       rails (>= 6.0.0)
       stimulus-rails
@@ -375,6 +376,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   factory_bot_rails
   grundler
+  honeybadger (~> 4.0)
   hotwire-rails
   importmap-rails
   jbuilder (~> 2.7)
